@@ -1,0 +1,28 @@
+#Wed Oct 07 15:48:36 EDT 2015
+# API Info
+appName: spring-async-controllers
+appDescription: Async rest controllers
+buildNumber: 1
+contactEmail: vanjinathan_sivapragasam@homedepot.com
+
+# App Info
+releaseNumber: 0.1
+buildTimeStamp: 20161216131313
+
+# Auto configuration modifications
+management:
+  endpoints:
+    web:
+      base-path: /manage
+      exposure:
+        include: '*'
+
+spring:
+  boot:
+    adminurl: http\://localhost\:8080
+server:
+  port:  8080
+
+
+
+
